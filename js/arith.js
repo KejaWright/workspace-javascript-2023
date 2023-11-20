@@ -1,12 +1,15 @@
 // get the element 
 
 // element --- property
-var num1 = parseInt(document.getElementById('n1').textContent); 
+var num1 = parseInt(document.getElementById('num1').textContent); 
+var num2 = parseInt(document.getElementById('num2').textContent); 
 
 
 
 //process
 var c = num1 + num2;
+var d = num1 - num2;
 
 //display
-document.write(c);
+document.write("<p>" +c+ "=" +num1+ "+" +num2+ "</p");
+document.write("<p>" +d+ "=" +num1+ "-" +num2+ "</p>");
